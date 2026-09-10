@@ -5,7 +5,7 @@
 **Project period:** Aug 2026 – Sep 2026  
 **Institution:** Zhejiang University  
 **Status:** Research prototype / course research project  
-**Repository:** GitHub link to be added after release
+**Repository:** [eeg-foundation-model](https://github.com/yerbery-cloud/eeg-foundation-model)
 
 ---
 
