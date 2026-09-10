@@ -1,12 +1,26 @@
 # Data
 
-不要把原始 EEG 上传到 GitHub。
+Raw and processed EEG datasets are **not included** in this repository.
 
-推荐本地结构：
+The project uses:
+
+- **EEGMMIDB / PhysioNet** for self-supervised pretraining
+- **EEGMAT** for REST vs. mental-arithmetic downstream classification
+- **LoongBrain Fp1/Fp2 recordings** for private real-device experiments
+
+## Recommended local layout
 
 ```text
 data/
-├── eegmmidb/
-├── eegmat/
-└── loongbrain_private/
+├── raw/
+│   ├── eegmmidb/
+│   └── eegmat/
+└── processed/
+    ├── pretrain20/
+    ├── pretrain60/
+    └── eegmat/
 ```
+
+Public datasets should be downloaded from their official sources and used under their original licenses.
+
+Raw LoongBrain EEG and subject-specific calibration data are kept private and are not intended for public release.
