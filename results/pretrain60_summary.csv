@@ -1,0 +1,7 @@
+metric,value
+pretrain_subjects,60
+test_subjects,55-60
+mask_ratio,0.5
+pretrained_mse,0.5399848363703135
+random_mse,1.3300344661323884
+zero_mse,0.9940927945975716

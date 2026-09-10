@@ -1,0 +1,9 @@
+metric,value
+method,Linear Probe - Pretrain60
+pretrain_subjects,60
+trainable_parameters,258
+best_epoch,20
+test_loss,0.6853542368987511
+test_accuracy,0.5775862068965517
+test_balanced_accuracy,0.5775862068965517
+test_macro_f1,0.572213441709942

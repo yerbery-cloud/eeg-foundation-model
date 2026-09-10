@@ -1,0 +1,11 @@
+item,value
+demo_type,same-session subject-specific calibrated recording demo
+calibration_cv_balanced_accuracy,0.7527472527472527
+calibration_valid_windows,79
+spectral_ensemble_weight,1.0
+demo_valid_predictions,36
+demo_accuracy,0.8055555555555556
+demo_balanced_accuracy,0.8095975232198143
+demo_macro_f1,0.8054054054054054
+mean_pipeline_latency_ms,5.213200000677413
+p95_pipeline_latency_ms,6.884974995045923
