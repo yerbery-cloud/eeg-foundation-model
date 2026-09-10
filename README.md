@@ -31,6 +31,8 @@ This is not intended to claim a universally generalizable BCI system. The projec
 
 ## 中文简介
 
+本项目为我个人完成的2026浙江大学短学期课程自主选题（智能机器人：神经与运动的感知和调控）
+
 本项目围绕 **Fp1/Fp2 双通道 EEG**，完成了从 **无标签自监督预训练 → Scaling → 下游迁移 → 模型对照 → LoongBrain 真机实时部署** 的完整研究流程。
 
 预训练阶段使用 EEGMMIDB，通过 **50% Masked Reconstruction** 训练 Transformer Encoder；下游阶段在 EEGMAT 的静息 / 心算二分类任务上比较 Linear Probe、LoRA、Full Fine-tuning，并加入 EEGNet 与开源 EEG Foundation Model CBraMod 作为对照。最后将模型接入 LoongBrain 的 LSL 实时 EEG 流，完成在线预处理、滑动窗口推理、个体校准和录屏 Demo。
