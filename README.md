@@ -454,7 +454,7 @@ A future refactor may reorganize them into `data/`, `models/`, `pretrain/`, `dow
 
 # Installation
 
-Python 3 is recommended.
+Python 3.9 is recommended.
 
 ```bash
 git clone https://github.com/yerbery-cloud/eeg-foundation-model.git
