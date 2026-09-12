@@ -457,7 +457,7 @@ A future refactor may reorganize them into `data/`, `models/`, `pretrain/`, `dow
 Python 3 is recommended.
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/yerbery-cloud/eeg-foundation-model.git
 cd eeg-foundation-model
 
 python -m venv .venv
