@@ -574,25 +574,38 @@ python src/37_loongbrain_calibrated_recording_demo.py
 
 ---
 
-# Figures
+## Figures
 
-After adding the selected public figures to `figures/`, the following sections can be enabled in the README.
+### Masked EEG Reconstruction
 
-```markdown
+The model is pretrained using masked reconstruction of two-channel EEG signals.
+
 ![Masked Reconstruction](figures/masking_example.png)
+
+### Pretraining Data Scaling
+
+Comparison between pretraining with 20 and 60 subjects.
 
 ![20 vs 60 Scaling](figures/scaling_20_vs_60.png)
 
+### Downstream Transfer
+
+Comparison of downstream cognitive-load classification performance.
+
 ![Downstream Comparison](figures/downstream_comparison.png)
+
+### Mask Ratio Robustness
+
+Performance under different masking ratios during self-supervised pretraining.
 
 ![Mask Ratio Robustness](figures/mask_ratio_robustness.png)
 
+### LoongBrain Real-time Demo
+
+Real-time cognitive-load decoding using the LoongBrain EEG acquisition system.
+
 ![LoongBrain Demo](figures/loongbrain_demo.png)
-```
 
-For the first public release, only include a small number of clear, final figures rather than all intermediate debugging screenshots.
-
----
 
 # Reproducibility
 
